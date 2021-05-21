@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.flex-container {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container div {
+  height: 50vh;
+  width: 210px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  padding: 45px;
+  line-height: 1.8;
+}
+.flex-container div h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+.flex-container div button {
+  margin-top: 60px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 0;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #f2f2f2;
+  display: block;
+  cursor: pointer;
+  border: 2px solid #f2f2f2;
+}
+.flex-container #sedan {
+  background-color: #e38826;
+  border-radius: 10px 0 0 10px;
+}
+.flex-container #sedan button {
+  color: #e38826;
+}
+.flex-container #sedan button:hover {
+  background-color: #e38826;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+}
+.flex-container #suv {
+  background-color: #006970;
+}
+.flex-container #suv button {
+  color: #006970;
+}
+.flex-container #suv button:hover {
+  background-color: #006970;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+}
+.flex-container #luxury {
+  background-color: #004241;
+  border-radius: 0 10px 10px 0;
+}
+.flex-container #luxury button {
+  color: #004241;
+}
+.flex-container #luxury button:hover {
+  background-color: #004241;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+/*# sourceMappingURL=style.css.map */
