@@ -70,4 +70,27 @@ body {
   color: #f2f2f2;
 }
 
+@media screen and (max-width: 376px) {
+  .flex-container {
+    flex-direction: column;
+    height: 100%;
+  }
+  .flex-container div {
+    height: 100%;
+  }
+  .flex-container div button {
+    margin-top: 30px;
+  }
+  .flex-container #sedan {
+    border-radius: 10px 10px 0 0;
+  }
+  .flex-container #luxury {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .attribution {
+    margin-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

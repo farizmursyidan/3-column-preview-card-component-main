@@ -7,6 +7,8 @@ $bright-orange: hsl(31, 77%, 52%);
 $dark-cyan: hsl(184, 100%, 22%);
 $very-dark-cyan: hsl(179, 100%, 13%);
 
+$breakpoint-mobile: 376px;
+
 body {
   font-family: 'Lexend Deca', sans-serif;
 }
@@ -86,5 +88,32 @@ body {
         color: $very-light-grey;
       }
     }
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  .flex-container {
+    flex-direction: column;
+    height: 100%;
+
+    div {
+      height: 100%;
+
+      button {
+        margin-top: 30px;
+      }
+    }
+
+    #sedan {
+      border-radius: 10px 10px 0 0;
+    }
+
+    #luxury {
+      border-radius: 0 0 10px 10px;
+    }
+  }
+
+  .attribution {
+    margin-top: 20px;
   }
 }
